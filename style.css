@@ -157,6 +157,28 @@ a {
   color: var(--gold);
 }
 
+.brand-logo {
+  font-size: clamp(0.65rem, 4vw, 1.5rem);
+  white-space: nowrap;
+  display: block;
+  max-width: 100%;
+}
+
+/* Small devices */
+@media (max-width: 575.98px) {
+  .brand-logo {
+    font-size: clamp(0.65rem, 4.2vw, 1rem);
+    letter-spacing: 0;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 380px) {
+  .brand-logo {
+    font-size: 0.72rem;
+  }
+}
+
 .site-navbar .nav-link {
   font-size: 0.78rem;
   letter-spacing: 0.18em;
