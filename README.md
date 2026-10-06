@@ -1,4 +1,4 @@
-"""# Amorth Maria Photography
+# Amorth Maria Photography
 
 An elegant and responsive photography portfolio website designed to showcase photographs, featured moments, photography categories, and booking information.
 
